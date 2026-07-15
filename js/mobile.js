@@ -1,16 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const toggle = document.getElementById("menuToggle");
-    const sidebar = document.querySelector(".sidebar");
+    function iniciarMenu() {
 
-    if(toggle && sidebar){
+        const boton = document.getElementById("menuToggle");
+        const sidebar = document.querySelector(".sidebar");
 
-        toggle.addEventListener("click", () => {
+        if (!boton || !sidebar) return;
+
+        boton.addEventListener("click", () => {
 
             sidebar.classList.toggle("show");
 
         });
 
     }
+
+    iniciarMenu();
 
 });
