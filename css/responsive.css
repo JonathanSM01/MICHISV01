@@ -1,0 +1,21 @@
+@media(max-width:900px){
+
+.dashboard{
+
+    grid-template-columns:1fr;
+
+}
+
+.sidebar{
+
+    display:none;
+
+}
+
+.welcome{
+
+    grid-template-columns:1fr;
+
+}
+
+}

@@ -1,0 +1,11 @@
+{
+    "projectName": "AgroLab",
+    "temperature": "42 °C",
+    "humidity": "65 %",
+    "day": "28",
+    "treatment": "Compost + NPK",
+    "treatments": 3,
+    "samples": 6,
+    "duration": "28 días",
+    "bestTreatment": "Compost + NPK"
+}
