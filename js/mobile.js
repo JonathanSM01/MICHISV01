@@ -1,8 +1,16 @@
-const toggle = document.getElementById("menuToggle");
-const sidebar = document.querySelector(".sidebar");
+document.addEventListener("DOMContentLoaded", () => {
 
-toggle.addEventListener("click",()=>{
+    const toggle = document.getElementById("menuToggle");
+    const sidebar = document.querySelector(".sidebar");
 
-    sidebar.classList.toggle("show");
+    if(toggle && sidebar){
+
+        toggle.addEventListener("click", () => {
+
+            sidebar.classList.toggle("show");
+
+        });
+
+    }
 
 });
